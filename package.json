@@ -1,0 +1,22 @@
+{
+  "name": "neo4j-schema-explorer",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:hqro/neo4j-schema-explorer.git",
+  "author": "Guillaume L. <guillaume@skillup.co>",
+  "license": "MIT",
+  "scripts": {
+    "start": "sucrase-node src/index.js --transforms imports"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "neo4j-driver": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.5.0",
+    "sucrase": "^3.10.0"
+  }
+}
